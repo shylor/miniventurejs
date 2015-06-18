@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Miniverse</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		html, body {
+			height: 100%;
+			overflow: hidden;
+			background-color: #111;
+		}
+		.pusher {
+			display: block;
+			height: 50%;
+		}
+		.center {
+			text-align: center;
+			margin-top: -302px;
+		}
+		#game {
+			border-radius: 5px;
+			background-color: #333;
+		}
+	</style>
+</head>
+<body>
+	<div class="pusher"></div>
+	<div class="center">
+		<canvas id="game" width="800" height="600"></canvas>
+	</div>
+	<script src="game/globals.js"></script>
+	<script src="game/game.js"></script>
+	<script src="game/input.js"></script>
+	<script src="game/scene.js"></script>
+	<script src="game/scene/intro.js"></script>
+	<script src="game/scene/main_menu.js"></script>
+	<script src="miniverse.js"></script>
+</body>
+</html>
