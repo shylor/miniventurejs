@@ -5,8 +5,7 @@ main_menu.prototype = new scene();
 
 main_menu.prototype.load = function() {
 	this.bg_img = new Image();
-	this.bg_img.src = 'assets/game_menu.jpg';
-	ctx.globalAlpha = 1;
+	this.bg_img.src = 'assets/game_menu.png';
 }
 
 main_menu.prototype.update = function() {
